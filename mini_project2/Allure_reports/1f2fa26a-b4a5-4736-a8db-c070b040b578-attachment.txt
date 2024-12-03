@@ -1,0 +1,14 @@
+C:\AutomationTestingCourse\Playwright_projects2\.venv\Lib\site-packages\playwright\driver\package\lib\server\chromium\crPage.js:497
+    this._firstNonInitialNavigationCommittedReject(new _errors.TargetClosedError());
+                                                   ^
+
+TargetClosedError: Target page, context or browser has been closed
+    at FrameSession.dispose (C:\AutomationTestingCourse\Playwright_projects2\.venv\Lib\site-packages\playwright\driver\package\lib\server\chromium\crPage.js:497:52)
+    at CRPage.didClose (C:\AutomationTestingCourse\Playwright_projects2\.venv\Lib\site-packages\playwright\driver\package\lib\server\chromium\crPage.js:162:60)
+    at CRBrowser._onDetachedFromTarget (C:\AutomationTestingCourse\Playwright_projects2\.venv\Lib\site-packages\playwright\driver\package\lib\server\chromium\crBrowser.js:201:14)
+    at CRSession.emit (node:events:518:28)
+    at C:\AutomationTestingCourse\Playwright_projects2\.venv\Lib\site-packages\playwright\driver\package\lib\server\chromium\crConnection.js:160:14
+    at runNextTicks (node:internal/process/task_queues:65:5)
+    at process.processImmediate (node:internal/timers:459:9)
+
+Node.js v22.11.0
